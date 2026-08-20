@@ -78,7 +78,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       const avatar = document.createElement("span");
       avatar.className = "streamer-avatar";
-      avatar.textContent = username.charAt(0).toUpperCase();
+      const avatarFallback = document.createElement("span");
+      avatarFallback.textContent = username.charAt(0).toUpperCase();
+      avatar.appendChild(avatarFallback);
       if (streamInfo.avatarUrl) {
         const avatarImage = document.createElement("img");
         avatarImage.src = streamInfo.avatarUrl;
@@ -86,7 +88,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         avatarImage.loading = "lazy";
         avatarImage.referrerPolicy = "no-referrer";
         avatarImage.addEventListener("load", () => {
-          avatar.textContent = "";
+          avatarFallback.remove();
         });
         avatarImage.addEventListener("error", () => {
           avatarImage.remove();

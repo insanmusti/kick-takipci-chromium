@@ -12,6 +12,9 @@
     "https://*.kick.com/*",
     "https://kick.com/*"
   ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' https://*.kick.com data: blob:;"
+  },
   "background": {
     "scripts": ["background.js"],
     "service_worker": "background.js"
