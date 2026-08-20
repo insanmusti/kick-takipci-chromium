@@ -1,8 +1,7 @@
 # Kick Takipçisi
 
 Kick yayıncılarını takip etmenizi sağlayan basit bir tarayıcı eklentisidir.
-Eklenti, takip ettiğiniz yayıncıların canlı olup olmadığını kontrol eder ve
-canlı yayın sayısını eklenti simgesinde gösterir.
+Eklenti, takip ettiğiniz yayıncıların canlı olup olmadığını kontrol eder.
 
 ## Özellikler
 
@@ -26,43 +25,15 @@ Takip listesi yerel tarayıcı depolamasında tutulur. Eklentinin çalışması 
 gerekli izinler `manifest.json` dosyasında tanımlıdır. Kaynak kodu incelemek
 ve eklentiyi kendiniz paketlemek, güvenlik açısından önerilen yöntemdir.
 
-## Kaynak klasörden yükleme
+Kurulum (.crx Dosyası İle)
 
-`.crx` dosyası oluşturmadan önce eklentiyi test etmek için:
+Eklentiyi bilgisayarınıza indirip manuel olarak yüklemek için aşağıdaki adımları izleyin:
 
-1. Chromium veya Chrome'da `chrome://extensions` adresini açın.
-2. Sağ üstten **Geliştirici modu**nu etkinleştirin.
-3. **Paketlenmemiş öğe yükle** düğmesine tıklayın.
-4. Bu README dosyasının bulunduğu ana klasörü seçin.
-5. Araç çubuğundaki eklenti simgesinden **Kick Takipçisi**ni açın.
-
-## CRX dosyasına dönüştürme
-
-Chrome/Chromium'da CRX üretmek için:
-
-1. `chrome://extensions` adresini açıp **Geliştirici modu**nu etkinleştirin.
-2. **Uzantıyı paketle** düğmesine tıklayın.
-3. **Uzantının kök dizini** alanında bu projenin ana klasörünü seçin.
-   `manifest.json` dosyası doğrudan bu klasörün içinde olmalıdır.
-4. İlk paketlemede özel anahtar alanını boş bırakıp **Paketle**ye tıklayın.
-5. Oluşan `.crx` dosyası dağıtılabilir eklenti paketidir. Yanında oluşan
-   `.pem` dosyasını güvenli bir yerde saklayın; aynı eklentiyi güncellerken
-   aynı anahtarın kullanılması gerekir.
-
-> Doğru dosya uzantısı Chrome/Chromium için `.crx`'tir. Bazı araçlar bunu
-> yanlışlıkla `.crxe` olarak adlandırabilir; yükleme ekranında beklenen
-> standart paket uzantısı `.crx` dosyasıdır.
-
-## CRX dosyasını yükleme
-
-1. `chrome://extensions` adresini açın.
-2. **Geliştirici modu**nu etkinleştirin.
-3. `.crx` dosyasını uzantılar sayfasına sürükleyip bırakın.
-4. Onay ekranında **Ekle** veya **Uzantıyı yükle** seçeneğini seçin.
-
-Kurumsal veya güvenlik politikaları CRX sürükleyerek yüklemeyi engellerse,
-aynı sayfadaki **Paketlenmemiş öğe yükle** seçeneğini kullanarak proje
-klasörünü yükleyebilirsiniz.
+    Bu depodaki veya Releases bölümündeki güncel .crx dosyasını bilgisayarınıza indirin.
+    Chromium tabanlı (Chrome, Edge, Brave, Helium vb.) tarayıcınızı açın.
+    Adres çubuğuna chrome://extensions/ yazıp Enter tuşuna basın.
+    Sağ üstten geliştirici modunu aktifleştirin.
+    İndirdiğiniz .crx dosyasını sürükleyin ve bırakın, ardından eklentiyi ekle diyin ve kullanmaya başlayın!!!
 
 ## Kullanım
 
@@ -70,16 +41,3 @@ klasörünü yükleyebilirsiniz.
 2. Kick kullanıcı adını yazın ve **Ekle**ye basın.
 3. Listedeki yayıncıya tıklayarak kanalını açın.
 4. Takipten çıkarmak için yayıncının yanındaki **Sil** düğmesine basın.
-
-## Proje yapısı
-
-```text
-kick-takipci-chromium/
-├── background.js          # Periyodik canlı yayın kontrolü ve rozet
-├── manifest.json          # Eklenti ayarları ve izinler
-├── icon/icon.png          # Eklenti simgesi
-└── popup/
-    ├── popup.html         # Eklenti penceresinin yapısı
-    ├── popup.css          # Eklenti penceresinin görünümü
-    └── popup.js           # Liste, API ve kullanıcı işlemleri
-```
