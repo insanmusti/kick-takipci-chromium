@@ -23,7 +23,7 @@ Takip listesi yerel tarayıcı depolamasında tutulur. Eklentinin çalışması 
 gerekli izinler `manifest.json` dosyasında tanımlıdır. Kaynak kodu incelemek
 ve eklentiyi kendiniz paketlemek, güvenlik açısından önerilen yöntemdir.
 
-Kurulum (.crx Dosyası İle)
+## Kurulum (.crx Dosyası İle)
 
 Eklentiyi bilgisayarınıza indirip manuel olarak yüklemek için aşağıdaki adımları izleyin:
 
