@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kick Yayın Bildirici</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="logo-area">
+        <span class="live-dot"></span>
+        <h2>Kick Takipçisi</h2>
+      </div>
+      <span id="liveBadge" class="status-badge">0 Canlı</span>
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="streamerInput" placeholder="Kullanıcı adı girin..." autocomplete="off" />
+      <button id="addBtn">Ekle</button>
+    </div>
+
+    <div class="list-container">
+      <ul id="streamerList"></ul>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
