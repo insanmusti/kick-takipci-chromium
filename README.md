@@ -1,4 +1,4 @@
-# Kick Takipçisi
+# Kick Yayın Takip Eklentisi
 
 Kick yayıncılarını takip etmenizi sağlayan basit bir tarayıcı eklentisidir.
 Eklenti, takip ettiğiniz yayıncıların canlı olup olmadığını kontrol eder.
@@ -9,10 +9,8 @@ Eklenti, takip ettiğiniz yayıncıların canlı olup olmadığını kontrol ede
 - Takip edilen yayıncıların canlı/çevrimdışı durumunu görme
 - Canlı yayınlardaki izleyici sayısını görme
 - Yayıncıların profil fotoğrafını isminin yanında gösterme
-- Profil fotoğrafı yüklenemezse güvenli bir baş harfli alternatif gösterme
 - Canlı yayın sayısını eklenti simgesinde rozet olarak gösterme
 - Yayıncı adına tıklayarak Kick kanalını açma
-- Takip listesini tarayıcı depolamasında saklama
 - Yaklaşık iki dakikada bir otomatik durum kontrolü
 
 ## Güvenlik ve gizlilik
