@@ -15,16 +15,6 @@ Eklenti, takip ettiğiniz yayıncıların canlı olup olmadığını kontrol ede
 - Yayıncı adına tıklayarak Kick kanalını açma
 - Yaklaşık iki dakikada bir otomatik durum kontrolü
 
-## Güvenlik ve gizlilik
-
-Eklenti yalnızca Kick API'sinden yayın durumu, izleyici sayısı ve profil
-fotoğrafı bilgilerini alır. Profil fotoğrafı yalnızca `https://kick.com` veya
-alt alan adlarından geliyorsa gösterilir; diğer adresler reddedilir.
-
-Takip listesi yerel tarayıcı depolamasında tutulur. Eklentinin çalışması için
-gerekli izinler `manifest.json` dosyasında tanımlıdır. Kaynak kodu incelemek
-ve eklentiyi kendiniz paketlemek, güvenlik açısından önerilen yöntemdir.
-
 ## Kurulum (Geliştirici Modu)
 
 1. Bu klasörü bilgisayarınızda tutun (zip olarak indirdiğiniz için çıkartın).
