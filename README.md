@@ -25,15 +25,15 @@ Takip listesi yerel tarayıcı depolamasında tutulur. Eklentinin çalışması 
 gerekli izinler `manifest.json` dosyasında tanımlıdır. Kaynak kodu incelemek
 ve eklentiyi kendiniz paketlemek, güvenlik açısından önerilen yöntemdir.
 
-## Kurulum (.crx Dosyası İle)
+## Kurulum (Geliştirici Modu)
 
-Eklentiyi bilgisayarınıza indirip manuel olarak yüklemek için aşağıdaki adımları izleyin:
+1. Bu klasörü bilgisayarınızda tutun (zip olarak indirdiğiniz için çıkartın).
+2. Tarayıcınızda `chrome://extensions` adresine gidin.
+3. Sağ üst köşedeki **Geliştirici modu** anahtarını açın.
+4. **Paketlenmemiş öğe yükle** (*Load unpacked*) butonuna tıklayın.
+5. Bu klasörü (`kick-takipci-chromium`) seçin.
 
-    Bu depodaki veya Releases bölümündeki güncel .crx dosyasını bilgisayarınıza indirin.
-    Chromium tabanlı (Chrome, Edge, Brave, Helium vb.) tarayıcınızı açın.
-    Adres çubuğuna chrome://extensions/ yazıp Enter tuşuna basın.
-    Sağ üstten geliştirici modunu aktifleştirin.
-    İndirdiğiniz .crx dosyasını sürükleyin ve bırakın, ardından eklentiyi ekle diyin ve kullanmaya başlayın!!!
+---
 
 ## Kullanım
 
@@ -48,16 +48,6 @@ Eklentiyi bilgisayarınıza indirip manuel olarak yüklemek için aşağıdaki a
 * **Hızlı ve Paralel Yükleme:** İstekleri eşzamanlı atarak yayın durumlarını saniyeler içinde günceller.
 * **Düşük Kaynak Kullanımı:** Arka planda yalnızca periyodik alarmlarla çalışan service worker ile çalışır.
 * **Gizlilik Odaklı:** Kişisel verilerinizi toplamaz ve üçüncü taraf sunuculara aktarmaz.
-
----
-
-## Kurulum (Geliştirici Modu)
-
-1. Bu klasörü bilgisayarınızda tutun (zip olarak indirdiyseniz çıkartın).
-2. Tarayıcınızda `chrome://extensions` adresine gidin.
-3. Sağ üst köşedeki **Geliştirici modu** anahtarını açın.
-4. **Paketlenmemiş öğe yükle** (*Load unpacked*) butonuna tıklayın.
-5. Bu klasörü (`kick-takipci-chromium`) seçin.
 
 ---
 
