@@ -1,22 +1,20 @@
 {
   "manifest_version": 3,
   "name": "Kick Yayın Bildirici",
-  "version": "1.0.0",
-  "description": "Seçtiğiniz Kick yayıncılarını takip edin.",
+  "version": "1.4.1",
+  "description": "Seçtiğiniz Kick yayıncılarını anlık takip edin.",
   "permissions": [
     "storage",
     "alarms",
-    "cookies"
+    "notifications"
   ],
   "host_permissions": [
-    "https://*.kick.com/*",
-    "https://kick.com/*"
+    "https://*.kick.com/*"
   ],
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' https://*.kick.com data: blob:;"
+    "extension_pages": "script-src 'self'; object-src 'self'; img-src 'self' https: data: blob:;"
   },
   "background": {
-    "scripts": ["background.js"],
     "service_worker": "background.js"
   },
   "action": {
@@ -28,13 +26,5 @@
     "16": "icon/icon.png",
     "48": "icon/icon.png",
     "128": "icon/icon.png"
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "kick-notifier@local.extension",
-      "data_collection_permissions": {
-        "required": ["none"]
-      }
-    }
   }
 }
