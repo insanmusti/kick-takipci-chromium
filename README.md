@@ -31,13 +31,6 @@ Eklenti, takip ettiğiniz yayıncıların canlı olup olmadığını kontrol ede
 2. Kick kullanıcı adını yazın ve **Ekle**ye basın.
 3. Listedeki yayıncıya tıklayarak kanalını açın.
 4. Takipten çıkarmak için yayıncının yanındaki **Sil** düğmesine basın.
-* **Anlık Bildirim Rozeti:** Pop-up'ı açmanıza gerek kalmadan simge üzerinde kaç yayıncının canlıda olduğunu gösterir.
-* **Canlı Yayın Bildirimleri:** Takip ettiğiniz bir yayıncı canlı yayına geçtiğinde profil fotoğrafı ve yayın başlığıyla sistem bildirimi alırsınız. Bildirime tıklayınca yayın açılır.
-* **Ayarlar Sekmesi:** Tema seçimi (Kick Yeşili, Okyanus, Mor Gece, Gün Batımı, Kızıl Fırtına, Buz), bildirim ve öneri ayarları.
-* **Önerilen Kanallar:** Beğenebileceğiniz kanal önerileri; istenirse tamamen kapatılabilir.
-* **Hızlı ve Paralel Yükleme:** İstekleri eşzamanlı atarak yayın durumlarını saniyeler içinde günceller.
-* **Düşük Kaynak Kullanımı:** Arka planda yalnızca periyodik alarmlarla çalışan service worker ile çalışır.
-* **Gizlilik Odaklı:** Kişisel verilerinizi toplamaz ve üçüncü taraf sunuculara aktarmaz.
 
 ---
 
