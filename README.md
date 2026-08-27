@@ -1,5 +1,5 @@
 # Kick Yayın Bildirici (Chromium)
-# Kick Yayın Takip Eklentisi
+# Kick Yayın Bildirici Eklentisi
 
 Kick platformundaki favori yayıncılarınızın canlı yayın durumlarını anlık olarak takip etmenizi sağlayan Chromium tabanlı tarayıcı eklentisi (Chrome, Edge, Brave, Opera vb.).
 Kick yayıncılarını takip etmenizi sağlayan basit bir tarayıcı eklentisidir.
